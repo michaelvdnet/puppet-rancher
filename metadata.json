@@ -2,11 +2,20 @@
   "name": "michaelvdnet-rancher",
   "version": "0.1.0",
   "author": "Michael van der Net",
-  "summary": "",
+  "summary": "Installs the rancher server or agent",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/michaelvdnet/puppet-rancher",
+  "project_page": "https://github.com/michaelvdnet/puppet-rancher",
+  "issues_url": "https://github.com/michaelvdnet/puppet-rancher/issues",
   "dependencies": [
-
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.24.0 < 8.0.0"
+    },
+    {
+      "name": "puppetlabs/docker",
+      "version_requirement": ">= 4.0.0 < 8.0.0"
+    }
   ],
   "operatingsystem_support": [
     {
